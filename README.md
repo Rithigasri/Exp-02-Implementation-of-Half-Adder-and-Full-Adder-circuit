@@ -61,8 +61,12 @@ endmodule
 
 ## OUTPUT:
 ## HALF ADDER:
-### HALF ADDER LOGIC CIRCUIT:
-![output](./pic1.png)
+### LOGIC SYMBOLS USED IN HALF ADDER:
+#### XOR Gate:
+![output](./xor.png)
+#### AND Gate:
+![output](./and.png)
+
 ### RTL REALIZATION:
 ![output](./halfadder.png)
 ### TIMING DIAGRAM:
@@ -71,8 +75,13 @@ endmodule
 ![output](./halftruth.png)
 
 ## FULL ADDER:
-### FULL ADDER LOGIC CIRCUIT:
-![output](./pic2.png)
+### LOGIC SYMBOLS USED IN FULL ADDER:
+#### XOR Gate:
+![output](./xor.png)
+#### AND Gate:
+![output](./and.png)
+#### OR Gate:
+![output](./or.png)
 ### RTL REALIZATION:
 ![output](./fulladder.png)
 ### TIMING DIAGRAM:
