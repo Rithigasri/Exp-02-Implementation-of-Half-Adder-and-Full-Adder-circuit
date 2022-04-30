@@ -41,20 +41,32 @@ Program to design a half adder and full adder circuit and verify its truth table
 Developed by: Rithiga Sri.B
 RegisterNumber: 212221230083
 
-VERILOG PROGRAMMING FOR HALF ADDER:
-module adder(a,b,sum,carry);
-input a,b;
-output sum,carry;
-xor(sum,a,b);
-and(carry,a,b);
+VERILOG PROGRAMMING FOR HALF ADDER:  
+
+module adder(a,b,sum,carry);  
+
+input a,b;  
+
+output sum,carry;  
+
+xor(sum,a,b);  
+
+and(carry,a,b);  
+
 endmodule
 
-VERILOG PROGRAMMING FOR FULL ADDER:
-module fulladder(a,b,c,carry,sum);
-input a,b,c;
-output sum,carry;
-assign sum=((a^b)^c);
-assign carry=((a&b)|(b&c)|(c&a));
+VERILOG PROGRAMMING FOR FULL ADDER:  
+
+module fulladder(a,b,c,carry,sum);  
+
+input a,b,c;  
+
+output sum,carry;  
+
+assign sum=((a^b)^c);  
+
+assign carry=((a&b)|(b&c)|(c&a));  
+
 endmodule
 */
 
@@ -70,7 +82,7 @@ endmodule
 ### RTL REALIZATION:
 ![output](./halfadder.png)
 ### TIMING DIAGRAM:
-![output](./halftiming.png)
+![output](./halfadd.jpeg)
 ### TRUTH TABLE:
 ![output](./halftruth.png)
 
@@ -85,7 +97,7 @@ endmodule
 ### RTL REALIZATION:
 ![output](./fulladder.png)
 ### TIMING DIAGRAM:
-![output](./fulltiming.png)
+![output](./fulladd.jpeg)
 ### TRUTH TABLE:
 ![output](./fulltruth.png)
 
